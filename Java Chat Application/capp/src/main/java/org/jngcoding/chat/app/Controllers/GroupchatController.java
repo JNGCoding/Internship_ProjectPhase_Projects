@@ -120,8 +120,6 @@ public class GroupchatController {
                 MessageTypeField.setVisible(CurrentOpenedUserChat != null);
                 MessageSendButton.setVisible(CurrentOpenedUserChat != null);
 
-                // TODO: COMPLETE THE MESSAGE EXTRACTION FKIN PROTOCOL TOMORROW.
-                // TODO: FUCKIN CREATE THE PROJECT REPORT OF THIS FUCKIN APPLICATION.
                 if (CurrentOpenedTableName != null) {
                     CurrentMessages.clear();
                     String[] messages = ChatServer.GenerateSQLOperation(String.format("SELECT USER, MESSAGE FROM %s ORDER BY ID ASC LIMIT 50;==QUERY\n", CurrentOpenedTableName));
@@ -308,3 +306,4 @@ public class GroupchatController {
         stage.show();
     }
 }
+
