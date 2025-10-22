@@ -1,11 +1,18 @@
 # Internship_ProjectPhase_Projects
-Projects :
-    1) Java Chat Application
-        Topic Number : 5
-        Topic Name : Java Chat Application
+## Main Project
+### **Java Chat Application**
+- **Topic Number:** 5  
+- **Topic Name:** Java Chat Application  
+- A real-time messaging application built in Java with a focus on modular backend design and desktop UX.
 
-    2) Java Zipper
-        Topic Number : 8
-        Topic Name : File Compressor and Decompressor
+---
 
-Main Project = Java Chat Application
+## Additional Projects
+
+### **Java Zipper**
+- **Topic Number:** 8  
+- **Topic Name:** File Compressor and Decompressor  
+- A lightweight utility for zipping and unzipping files using `ZipInputStream` and `ZipOutputStream`, with a simple GUI built in Swing.
+
+---
+
