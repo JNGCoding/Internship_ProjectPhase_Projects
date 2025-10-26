@@ -138,8 +138,6 @@ public class Server {
 
                                                 client.ClientOutput.write(tuple.toString().getBytes());
                                                 client.ClientOutput.write('\n');
-
-                                                System.out.println(tuple.toString() + "\n\r");
                                             }
                                             client.ClientOutput.write('\r');
                                         } catch (SQLException exception) {
