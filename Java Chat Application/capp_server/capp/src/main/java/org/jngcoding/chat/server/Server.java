@@ -106,10 +106,6 @@ public class Server {
                                     String[] parts = instruction.split("==");
                                     if (parts.length < 2) continue;
 
-                                    System.out.println("==================================");
-                                    System.out.println("INSTRUCTION: " + parts[0]);
-                                    System.out.println("QUERYTYPE: " + parts[1]);
-
                                     DBController.QueryType querytype;
                                     switch (parts[1].trim().toUpperCase()) {
                                         case "UPDATE": querytype = DBController.QueryType.UPDATE; break;
@@ -153,7 +149,6 @@ public class Server {
                                         //! NOTHING ?
                                     }
                                     database.closeDBResult(result);
-                                    System.out.println("==================================");
                                 }
                             }
                         } catch (IOException e) {
